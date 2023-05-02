@@ -1,0 +1,88 @@
+Svaka stranica mora imati prvu stranicu index.html
+Ona se prva prikazuje.
+
+Kako se dobi skeleton same stranice?
+Pritiskom ! pa enter dobi se kostur.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+html smatra da se nalazi u html 5.
+lang = to je atribut -> jezik stranice engleski
+za hrvatski stavi hr -> prije bi rekao da koji google otvoriš
+za više jezika staviš zarez
+
+
+Head je nešto što korisnik ne vidi, vidi ono što je u body
+U head je ono što je važno za pretraivanje.
+Ustolam vidiš da su tu meta oznake.
+
+UTF-8 sadrzi znakove za slavenske jezike.
+
+Viewport je oznaka za razlličite veličine uređaja.
+device-width je da browser sam prilagodi za ostale uređaje, nije baš dobar
+inital-scale 1.0 prikazuj na 100%, 2.0 200% itd.
+
+Još dodano bi bilo za dodati meta-description -> za semantički web
+to je dosta bitno jer se očekuje da će AI prilagođavati content za
+korisnike.
+
+fn + F5 otvara u VSCODE-u stranicu
+
+HTML podržava 6 razina naslova h1-h6
+
+Ako želiš detaljnije uređivati stranice ipak je potreban CSS
+html nudi samo bazične funckionalnosti.
+
+Blokovski vs inline elements -> pronađi odgovor na W3 schools
+
+ctrl +d mijenja oba elementa od 
+meta http nije objasnio
+
+
+Tablice
+
+Sve je piše kao u nekoj matrici tr(table row) i teable heading(stupac)
+
+tr uvijek a opcije su table header(da se istakne) a podatci stranice tj. ćelije
+stavljaju se u table data.
+
+Table border se davno prije koristio danas-> border 1 je kao debljina bordera.
+Za centriranje podatka koristi colspan.
+
+
+LISTE
+
+ul -> un ordered list
+li -> elementi liste ?
+
+S ul možeš delegirati dubinu liste.
+
+
+ol je oredered list tj s brojevim, ovaj prije je davao bulete.
+
+dl neznam kaj je ali daje parove podataka.
+
+HTML poveznice
+
+s aref dodajem poveznice
+
+FORME
+
+To je dodavanje objekta za upisivanje npr kao search stari.
+Ovo su svi input type inline elemnti ne uzimaju blok, svi u istom redu.
+Za to mogu koristiti break row <br>
+
+PADAJUĆI izbornik radi se s select
+
+
